@@ -4,7 +4,7 @@ test.skip('checkout with PayPal', async ({ page }) => {
   // never executes
 });
 
-test.only('login as Pramod', async ({ page }) => {
+test.only('login as Amani', async ({ page }) => {
   // only this test runs, everything else in the file is ignored
 });
 

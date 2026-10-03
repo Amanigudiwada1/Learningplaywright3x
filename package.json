@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "auth:wingify": "node tests/04_Session_Storage/231_session_storage.cjs"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
-    "@types/node": "^22.20.2"
+    "@types/node": "^22.20.2",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.13.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4"
   }
 }

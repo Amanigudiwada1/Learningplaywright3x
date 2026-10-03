@@ -22,6 +22,7 @@ test.describe('Login Page', () => {
 })
 
 // npx playwright test -g "Login Page"
-await page.locator('https://www.google.com').click();
-
-await page.locator('body').click();
+test('open Google and click the page body', async ({ page }) => {
+    await page.goto('https://www.google.com');
+    await page.locator('body').click();
+});
