@@ -17,4 +17,5 @@ const rightPanelLinks = await page.locator('a.list-group-item').all();
 for (const link of rightPanelLinks) {
     console.log(await link.getAttribute("href"));
 }
+await page.pause();
 });

@@ -1,0 +1,1 @@
+Fixture file used to test uploading from a directory outside the spec folder.
